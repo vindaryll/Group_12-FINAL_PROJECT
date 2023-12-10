@@ -71,7 +71,7 @@ namespace backbone.AdminForms
 
         private void button2_Click(object sender, EventArgs e)
         {
-            form2 form = new();
+            WelcomeInterface2 form = new();
             form.Show();
             this.Close();
         }

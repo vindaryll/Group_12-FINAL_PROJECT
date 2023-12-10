@@ -3,10 +3,10 @@ using pv = backbone.PublicVariables;
 
 namespace backbone.CustomerForms
 {
-    public partial class FormReceipt : Form
+    public partial class iReceipt : Form
     {
         Functions func = new();
-        public FormReceipt()
+        public iReceipt()
         {
             InitializeComponent();
             dataQueries();

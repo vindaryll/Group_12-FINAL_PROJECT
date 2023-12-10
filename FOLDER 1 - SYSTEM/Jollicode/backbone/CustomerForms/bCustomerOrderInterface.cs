@@ -3,10 +3,10 @@ using pv = backbone.PublicVariables;
 
 namespace backbone.CustomerForms
 {
-    public partial class FormOrderInterface : Form
+    public partial class bCustomerOrderInterface : Form
     {
         Functions func = new();
-        public FormOrderInterface()
+        public bCustomerOrderInterface()
         {
             InitializeComponent();
             showData();
@@ -65,7 +65,7 @@ namespace backbone.CustomerForms
             }
             else
             {
-                FormViewOrder form = new();
+                dViewOrder form = new();
                 this.Close();
                 form.Show();
             }

@@ -3,10 +3,10 @@ using pv = backbone.PublicVariables;
 
 namespace backbone.CustomerForms
 {
-    public partial class FormViewOrder : Form
+    public partial class dViewOrder : Form
     {
         Functions func = new();
-        public FormViewOrder()
+        public dViewOrder()
         {
             InitializeComponent();
             showData();
@@ -41,14 +41,14 @@ namespace backbone.CustomerForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FormOrderInterface form = new();
+            bCustomerOrderInterface form = new();
             this.Close();
             form.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FormPayment1 form = new();
+            fPayment form = new();
             this.Close();
             form.Show();
         }
@@ -64,7 +64,7 @@ namespace backbone.CustomerForms
                     if (itemID > 0)
                     {
                         pv.indexItem = itemID - 1;
-                        FormEditOrder form = new();
+                        eEditOrder form = new();
                         form.Show();
                         this.Close();
                     }

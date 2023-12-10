@@ -1,11 +1,11 @@
 namespace backbone
 {
-    public partial class Form1 : Form
+    public partial class WelcomeInterface1 : Form
     {
 
         Functions func = new();
 
-        public Form1()
+        public WelcomeInterface1()
         {
             InitializeComponent();
             func.refreshCustomer();
@@ -18,7 +18,7 @@ namespace backbone
 
         private void Form1_click(object sender, EventArgs e)
         {
-            form2 form = new();
+            WelcomeInterface2 form = new();
             form.Show();
             this.Close();
         }

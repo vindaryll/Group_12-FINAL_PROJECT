@@ -43,7 +43,7 @@ namespace backbone.MiscForms
 
         private void LoadMainForm()
         {
-            Form1 form = new();
+            WelcomeInterface1 form = new();
             form.Show();
             this.Hide();
         }

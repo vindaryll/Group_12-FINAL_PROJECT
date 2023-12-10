@@ -1,6 +1,6 @@
 ﻿namespace backbone.CustomerForms
 {
-    partial class FormPayment1
+    partial class fPayment
     {
         /// <summary>
         /// Required designer variable.

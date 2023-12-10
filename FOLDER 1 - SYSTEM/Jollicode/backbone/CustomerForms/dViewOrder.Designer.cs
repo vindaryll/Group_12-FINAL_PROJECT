@@ -1,6 +1,6 @@
 ﻿namespace backbone.CustomerForms
 {
-    partial class FormViewOrder
+    partial class dViewOrder
     {
         /// <summary>
         /// Required designer variable.

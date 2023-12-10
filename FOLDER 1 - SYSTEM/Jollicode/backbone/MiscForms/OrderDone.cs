@@ -24,7 +24,7 @@ namespace backbone.MiscForms
             if (done())
             {
                 timer1.Stop();
-                Form1 form = new();
+                WelcomeInterface1 form = new();
                 form.Show();
                 this.Close();
             }

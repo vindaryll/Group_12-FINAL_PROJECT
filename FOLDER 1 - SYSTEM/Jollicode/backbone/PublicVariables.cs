@@ -21,7 +21,7 @@
 
         // Connections and Folderpaths
 
-        public static string folderPath = "paste_the_link_here";
+        public static string folderPath = "paste_your_path_here";
         public static string dbname = "finals_db";
 
         // Imported Font

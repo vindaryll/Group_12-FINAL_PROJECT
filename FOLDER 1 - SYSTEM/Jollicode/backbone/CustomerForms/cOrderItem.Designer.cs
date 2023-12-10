@@ -1,6 +1,6 @@
 ﻿namespace backbone.CustomerForms
 {
-    partial class FormOrderItem
+    partial class cOrderItem
     {
         /// <summary>
         /// Required designer variable.

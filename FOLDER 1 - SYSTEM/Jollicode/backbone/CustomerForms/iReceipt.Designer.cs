@@ -1,6 +1,6 @@
 ﻿namespace backbone.CustomerForms
 {
-    partial class FormReceipt
+    partial class iReceipt
     {
         /// <summary>
         /// Required designer variable.

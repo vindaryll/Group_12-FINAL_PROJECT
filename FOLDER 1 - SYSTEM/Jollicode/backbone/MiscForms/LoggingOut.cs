@@ -42,7 +42,7 @@ namespace backbone.MiscForms
                 label1.Text = "LOGGED OUT!";
                 timer1.Stop();
                 this.Close();
-                Form1 form = new();
+                WelcomeInterface1 form = new();
                 form.Show();
             }
             else

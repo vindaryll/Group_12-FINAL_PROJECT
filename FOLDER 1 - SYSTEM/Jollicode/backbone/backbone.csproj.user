@@ -37,46 +37,46 @@
     <Compile Update="AdminForms\gRecordsForm2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form1.cs">
+    <Compile Update="WelcomeInterface1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="form2.cs">
+    <Compile Update="WelcomeInterface2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="CustomerForms\userFormBeverage.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="CustomerForms\formCustomer.cs">
+    <Compile Update="CustomerForms\aCustomerInformation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="CustomerForms\FormEditOrder.cs">
+    <Compile Update="CustomerForms\eEditOrder.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="CustomerForms\userFormMainDish.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="CustomerForms\FormOrderInterface.cs">
+    <Compile Update="CustomerForms\bCustomerOrderInterface.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="CustomerForms\FormOrderItem.cs">
+    <Compile Update="CustomerForms\cOrderItem.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="CustomerForms\FormPayment1.cs">
+    <Compile Update="CustomerForms\fPayment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="CustomerForms\FormPaymentCash.cs">
+    <Compile Update="CustomerForms\gPaymentCash.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="CustomerForms\FormPaymentEpayment.cs">
+    <Compile Update="CustomerForms\hPaymentEPayment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="CustomerForms\FormReceipt.cs">
+    <Compile Update="CustomerForms\iReceipt.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="CustomerForms\userFormSideDish.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="CustomerForms\FormViewOrder.cs">
+    <Compile Update="CustomerForms\dViewOrder.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MiscForms\CancelOrder.cs">

@@ -1,29 +1,29 @@
 ﻿namespace backbone.CustomerForms
 {
-    public partial class FormPayment1 : Form
+    public partial class fPayment : Form
     {
-        public FormPayment1()
+        public fPayment()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FormPaymentCash form = new();
+            gPaymentCash form = new();
             form.Show();
             this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            FormViewOrder form = new();
+            dViewOrder form = new();
             form.Show();
             this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FormPaymentEpayment form = new();
+            hPaymentEPayment form = new();
             form.Show();
             this.Close();
         }

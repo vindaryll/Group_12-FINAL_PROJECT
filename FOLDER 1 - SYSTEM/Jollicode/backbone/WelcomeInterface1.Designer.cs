@@ -1,6 +1,6 @@
 ﻿namespace backbone
 {
-    partial class Form1
+    partial class WelcomeInterface1
     {
         /// <summary>
         ///  Required designer variable.

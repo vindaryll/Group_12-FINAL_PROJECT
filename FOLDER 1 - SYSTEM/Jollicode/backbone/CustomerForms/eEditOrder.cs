@@ -4,10 +4,10 @@ using pv = backbone.PublicVariables;
 
 namespace backbone.CustomerForms
 {
-    public partial class FormEditOrder : Form
+    public partial class eEditOrder : Form
     {
         Functions func = new();
-        public FormEditOrder()
+        public eEditOrder()
         {
             InitializeComponent();
             showData();
@@ -106,13 +106,13 @@ namespace backbone.CustomerForms
         {
             if (pv.totalQuantity > 0)
             {
-                FormViewOrder form = new();
+                dViewOrder form = new();
                 form.Show();
                 this.Close();
             }
             else
             {
-                FormOrderInterface form = new();
+                bCustomerOrderInterface form = new();
                 form.Show();
                 this.Close();
             }

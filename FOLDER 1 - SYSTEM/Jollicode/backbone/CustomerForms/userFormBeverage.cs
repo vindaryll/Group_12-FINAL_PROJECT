@@ -103,13 +103,13 @@ namespace backbone.CustomerForms
 
         private void order()
         {
-            FormOrderItem form = new();
+            cOrderItem form = new();
             form.Show();
         }
 
         private void CloseOrderInterface()
         {
-            if (ParentForm is FormOrderInterface parent)
+            if (ParentForm is bCustomerOrderInterface parent)
             {
                 parent.Close();
             }

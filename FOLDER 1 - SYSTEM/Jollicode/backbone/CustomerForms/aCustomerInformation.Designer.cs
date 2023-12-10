@@ -1,6 +1,6 @@
 ﻿namespace backbone.CustomerForms
 {
-    partial class formCustomer
+    partial class aCustomerInformation
     {
         /// <summary>
         /// Required designer variable.

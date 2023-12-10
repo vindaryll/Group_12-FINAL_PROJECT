@@ -3,9 +3,9 @@ using pv = backbone.PublicVariables;
 
 namespace backbone.CustomerForms
 {
-    public partial class FormPaymentCash : Form
+    public partial class gPaymentCash : Form
     {
-        public FormPaymentCash()
+        public gPaymentCash()
         {
             InitializeComponent();
             lblTotal.Text = "PHP " + pv.totalBill.ToString("N2");
@@ -74,7 +74,7 @@ namespace backbone.CustomerForms
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FormPayment1 form = new();
+            fPayment form = new();
             form.Show();
             this.Close();
         }

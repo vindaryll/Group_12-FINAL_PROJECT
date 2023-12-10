@@ -3,10 +3,10 @@ using pv = backbone.PublicVariables;
 
 namespace backbone.CustomerForms
 {
-    public partial class formCustomer : Form
+    public partial class aCustomerInformation : Form
     {
         Functions func = new();
-        public formCustomer()
+        public aCustomerInformation()
         {
             InitializeComponent();
             useCustomFont();
@@ -39,7 +39,7 @@ namespace backbone.CustomerForms
                     pv.customerAddress = textBox2.Text.ToUpper();
                     pv.customerContact = textBox3.Text.ToUpper();
 
-                    FormOrderInterface form = new();
+                    bCustomerOrderInterface form = new();
                     this.Close();
                     form.Show();
                 }
@@ -58,7 +58,7 @@ namespace backbone.CustomerForms
 
         private void button2_Click(object sender, EventArgs e)
         {
-            form2 form = new form2();
+            WelcomeInterface2 form = new WelcomeInterface2();
             this.Close();
             form.Show();
         }

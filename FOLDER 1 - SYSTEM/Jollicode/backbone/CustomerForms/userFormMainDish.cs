@@ -122,7 +122,7 @@ namespace backbone.CustomerForms
 
         private void order()
         {
-            FormOrderItem form = new();
+            cOrderItem form = new();
             form.Show();
 
         }
@@ -130,7 +130,7 @@ namespace backbone.CustomerForms
         // to close parent form
         private void CloseOrderInterface()
         {
-            if (ParentForm is FormOrderInterface parent)
+            if (ParentForm is bCustomerOrderInterface parent)
             {
                 parent.Close();
             }

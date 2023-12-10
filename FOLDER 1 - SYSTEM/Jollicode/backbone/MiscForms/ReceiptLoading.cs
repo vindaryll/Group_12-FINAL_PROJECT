@@ -35,7 +35,7 @@ namespace backbone.MiscForms
             if (printed())
             {
                 timer1.Stop();
-                CustomerForms.FormReceipt form = new();
+                CustomerForms.iReceipt form = new();
                 form.Show();
                 this.Close();
             }

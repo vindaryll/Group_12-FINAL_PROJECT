@@ -3,11 +3,11 @@ using pv = backbone.PublicVariables;
 
 namespace backbone.CustomerForms
 {
-    public partial class FormOrderItem : Form
+    public partial class cOrderItem : Form
     {
 
         Functions func = new();
-        public FormOrderItem()
+        public cOrderItem()
         {
             InitializeComponent();
             showData();
@@ -79,7 +79,7 @@ namespace backbone.CustomerForms
             {
                 MessageBox.Show("Order Added!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            FormOrderInterface form = new();
+            bCustomerOrderInterface form = new();
             form.Show();
             this.Close();
         }
